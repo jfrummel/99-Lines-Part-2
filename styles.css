@@ -1,0 +1,20 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.friend {
+    background-color: rgb(39, 145, 172);
+    width: 200px;
+    padding: 2px 2px 2px 2px;
+    margin-left: 5px;
+}
+
+.friend h3 {
+    text-transform: uppercase;
+}
