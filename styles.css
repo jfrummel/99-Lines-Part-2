@@ -18,3 +18,13 @@ h1 {
 .friend h3 {
     text-transform: uppercase;
 }
+
+.btn {
+    background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  font-size: 20px;
+  border-radius: 12px;
+}
