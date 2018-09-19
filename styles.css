@@ -10,13 +10,14 @@ h1 {
 
 .friend {
     background-color: rgb(39, 145, 172);
-    width: 200px;
+    width: 100%;
     padding: 2px 2px 2px 2px;
     margin-left: 5px;
 }
 
 .friend h3 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 .btn {

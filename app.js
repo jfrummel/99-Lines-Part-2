@@ -21,9 +21,16 @@ for (let i = 0; i < friends.length; i++) {
         let lessNum = j - 1;
 
         if (j > 1) {
-            console.log(num + ' ' + 'lines of code in the file,' + ' ' + num + ' ' + 'lines of code;' + ' ' + currName + ' ' + 'strikes one out, clears it all out,' + ' ' + lessNum + ' ' + 'lines of code in the file');
+            let p1 = document.createElement('p');
+            let p1Text = document.createTextNode(num + ' ' + 'lines of code in the file,' + ' ' + num + ' ' + 'lines of code;' + ' ' + currName + ' ' + 'strikes one out, clears it all out,' + ' ' + lessNum + ' ' + 'lines of code in the file');
+            p1.appendChild(p1Text);
+            div.appendChild(p1);
         } else {
-            console.log('1 line of code in the file, 1 line of code;' + ' ' + currName + ' ' + 'strikes one out, clears it all out, no more lines of code in the file');
+            let p2 = document.createElement('p');
+            let p2Text = document.createTextNode('1 line of code in the file, 1 line of code;' + ' ' + currName + ' ' + 'strikes one out, clears it all out, no more lines of code in the file');
+            p2.appendChild(p2Text);
+            div.appendChild(p2);
+
         }
     }
 }
