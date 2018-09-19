@@ -1,8 +1,4 @@
 let friends = ['Bill', 'Mike', 'Brian', 'Jason', 'Trajan'];
-let i;
-let j;
-let currName;
-
 let button = document.querySelector('.btn');
 button.addEventListener('click', function() {
 
